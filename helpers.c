@@ -67,6 +67,7 @@ void parse_line(char *line, unsigned int line_number)
                 {"pall", pall},
                	{"pint", pint},
 		{"pop", pop},
+		{"swap", swap},
 	        {NULL, NULL}
         };
         int i = 0;

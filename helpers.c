@@ -65,7 +65,8 @@ void parse_line(char *line, unsigned int line_number)
         instruction_t instructions[] = {
                 {"push", push},
                 {"pall", pall},
-                {NULL, NULL}
+               	{"pint", pint},
+	        {NULL, NULL}
         };
         int i = 0;
 

@@ -49,7 +49,6 @@ stack_t *add_node(stack_t **stack, int n)
         return (new_node);
 }
 
-#include "monty.h"
 
 /**
  * parse_line - Parses a line and executes the corresponding opcode.

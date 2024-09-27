@@ -94,4 +94,13 @@ void pop(stack_t **stack, unsigned int line_number)
 
         free(temp);
 }
-
+/**
+ * nop - Does nothing.
+ * @stack: Double pointer to the top of the stack.
+ * @line_number: Line number where the opcode is found.
+ */
+void nop(stack_t **stack, unsigned int line_number)
+{
+        (void)stack;        /* Unused parameter */
+        (void)line_number;  /* Unused parameter */
+}

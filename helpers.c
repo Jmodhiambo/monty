@@ -70,6 +70,7 @@ void parse_line(char *line, unsigned int line_number)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
 	        {NULL, NULL}
         };
         int i = 0;

@@ -30,5 +30,5 @@ void div_op(stack_t **stack, unsigned int line_number)
         (*stack)->next->n = result;
 
         /* Remove the top element */
-        pop_op(stack, line_number);
+        pop(stack, line_number);
 }
